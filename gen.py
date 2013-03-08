@@ -25,15 +25,15 @@ setup  ={1:{'howmany':100,'freq':50},
          4:{'howmany':2,'freq':50},
          5:{'howmany':1,'freq':50}}
 #_____GATE_______configurations________________________________________________
-gate ='steele2'     # namd                 # ggategpu,ggatecpu,fgatecpu,steele
+gate ='steele'     # namd                 # ggategpu,ggatecpu,fgatecpu,steele
                                            # steele2,fgatecpu2,ggatecpu2/gpu2
-gate='fgatecpu2'   # amb                  # multisndr,fgatecpu
+#gate='fgatecpu'   # amb                  # multisndr,fgatecpu
 cn   ='2'                                  # ppn request
 ppn_env={'01.vac':'2','02.imp':cn,'03.exp':cn}
 comp ='cpu'                                # gpu or cpu !TESLA: always 1
 wallt='lwt'                    # smd       # sst=15m,swt=72h,mwt=368h,lwt=720h
                                # asmd      # swt=1.5h,mwt:4h,lwt:72h,dwt:15d
-wt_env={'01.vac':wallt,'02.imp':wallt,'03.exp':'dwt'}
+wt_env={'01.vac':wallt,'02.imp':wallt,'03.exp':'lwt'}
 queue='workq'                            # tg_'short'72 'workq'720
 q_env={'01.vac':'standby','02.imp':queue,'03.exp':queue}
                                            # 'standby-8','standby','debug'
