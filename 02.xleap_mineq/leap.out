@@ -1,0 +1,9 @@
+log started: Sat Mar  2 14:30:00 2013
+
+Log file: ./leap.out
+>> 
+>> # molecule loaded
+>> source leaprc.ff99SB
+----- Source: /home/dale/opt/amber12/dat/leap/cmd/leaprc.ff99SB
+----- Source of /home/dale/opt/amber12/dat/leap/cmd/leaprc.ff99SB done
+>>> logFile leap.log

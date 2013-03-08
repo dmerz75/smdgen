@@ -1,0 +1,13 @@
+# run: $AMBERHOME/bin/tleap -s -f leap.in
+logfile leap.out
+
+# molecule loaded
+source leaprc.ff99SB
+d = loadpdb "da9.pdb"
+
+# deleted the H3
+desc d.1.4
+remove d d.1.4
+check d
+
+# BREAK part 1

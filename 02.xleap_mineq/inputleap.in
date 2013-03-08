@@ -1,0 +1,36 @@
+# run: $AMBERHOME/bin/tleap -s -f leap.in
+logfile leap.out
+
+# molecule loaded
+source leaprc.ff99SB
+d = loadpdb "da9.pdb"
+
+# deleted the H3
+desc d.1.4
+remove d d.1.4
+check d
+
+# BREAK part 1
+# BREAK part 2
+
+# vacuum
+dv = copy d
+setbox dv vdw {3 4.5 20.8}
+check dv
+saveamberparm dv da_v.prmtop da_v.inpcrd
+savepdb dv da_v.pdb
+
+# implicit
+di = copy d
+check di
+saveamberparm di da_i.prmtop da_i.inpcrd
+savepdb di da_i.pdb
+
+# explicit
+de = copy d
+solvatebox de TIP3PBOX {7.3 4.95 17.915}
+check de
+saveamberparm de da_e.prmtop da_e.inpcrd
+savepdb de da_e.pdb
+
+quit

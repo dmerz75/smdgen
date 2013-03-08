@@ -1,0 +1,5 @@
+in the da.psf, smd_ini.pdb; -0.304, 13.4, 13.7
+                                          13.0
+in water
+its                              0, 14.05,  
+                                    13.35

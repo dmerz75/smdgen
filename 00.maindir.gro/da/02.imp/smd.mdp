@@ -1,0 +1,64 @@
+title       = Umbrella pulling simulation 
+define      = -DPOSRES_B
+; Run parameters
+integrator  = md
+dt          = 0.002
+tinit       = 0
+nsteps      = 2500    ; 20 ps
+nstcomm     = 10
+; Output parameters
+nstxout     = 250      ; every 1 ps
+nstvout     = 250 
+nstfout     = 250
+nstxtcout   = 250       ; every 1 ps
+nstenergy   = 250
+; Bond parameters
+constraint_algorithm    = lincs
+constraints             = all-bonds
+continuation            = yes       ; continuing from NPT 
+; Single-range cutoff scheme
+nstlist     = 5
+ns_type     = grid 
+rlist       = 1.4
+rcoulomb    = 1.4
+rvdw        = 1.4
+; PME electrostatics parameters
+coulombtype     = PME
+fourierspacing  = 0.12
+fourier_nx      = 0
+fourier_ny      = 0
+fourier_nz      = 0
+pme_order       = 4
+ewald_rtol      = 1e-5
+optimize_fft    = yes
+; Berendsen temperature coupling is on in two groups
+Tcoupl      = Nose-Hoover
+tc_grps     = system 
+tau_t       = 0.5
+ref_t       = 300
+; Pressure coupling is on
+Pcoupl          = Parrinello-Rahman 
+pcoupltype      = isotropic
+tau_p           = 1.0       
+compressibility = 4.5e-5
+ref_p           = 1.0
+; Generate velocities is off
+gen_vel     = yes 
+gen_temp    = 300
+gen_seed    = -1
+; Periodic boundary conditions are on in all directions
+pbc     = xyz
+; Long-range dispersion correction
+DispCorr    = EnerPres
+; Pull code
+pull            = umbrella
+pull_geometry   = distance  ; simple distance increase 
+pull_dim        = N N Y
+pull_start      = yes       ; define initial COM distance > 0
+pull_ngroups    = 1
+pull_group0     = atom_nter 
+pull_group1     = atom_cooh
+pull_rate1      = 0.1      ; 0.1 nm per ps = 1 A per ns
+pull_k1         = 1000      ; kJ mol^-1 nm^-2
+pull_nstxout    = 10
+pull_nstfout    = 10

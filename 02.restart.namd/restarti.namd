@@ -1,0 +1,89 @@
+#############################################################
+## JOB DESCRIPTION                                         ##
+#############################################################
+# Minimization and Equilibration of 
+# generalized Born implicit solvent
+#############################################################
+## ADJUSTABLE PARAMETERS                                   ##
+#############################################################
+
+structure          nm.psf
+coordinates        nm.pdb 
+set temperature    300
+set outputname     imineq 
+
+# Continuing a job from the restart files
+if {0} {
+set inputname      myinput
+binCoordinates     $inputname.restart.coor
+binVelocities      $inputname.restart.vel  ;# remove the "temperature" entry if you use this!
+extendedSystem	   $inputname.xsc
+} 
+firsttimestep      0
+
+#############################################################
+## SIMULATION PARAMETERS                                   ##
+#############################################################
+
+# Input
+paraTypeCharmm	    on
+parameters          ../../reso/toppar/par_all27_prot_lipid.prm 
+temperature         $temperature
+
+# GBIS Implicit Solvent
+GBIS                   on
+solventDielectric     78.5
+intrinsicRadiusOffset  0.09
+ionConcentration       0.0
+GBISDelta              1.0 ;# Default: 1, .8, 4.85
+GBISBeta               0.8
+GBISGamma              4.85
+alphaCutoff           12.0
+
+# Force-Field Parameters
+exclude             scaled1-4
+1-4scaling          1.0
+cutoff              16.0
+switching           on
+switchdist          15.0
+pairlistdist        17.5
+
+# Integrator Parameters
+timestep            2.0  ;# 2fs/step
+rigidBonds          all  ;# needed for 2fs steps
+nonbondedFreq       1
+fullElectFrequency  2
+stepspercycle       10
+
+# Constant Temperature Control
+langevin            on    ;# do langevin dynamics
+langevinDamping     1     ;# damping coefficient (gamma) of 1/ps
+langevinTemp        $temperature
+langevinHydrogen    off    ;# don't couple langevin bath to hydrogens
+
+# Output
+outputName         $outputname
+restartfreq        2000     ;# 500steps = every 1ps
+dcdfreq            2000
+xstFreq            2000
+outputEnergies     2000
+outputPressure     2000
+
+#############################################################
+## EXTRA PARAMETERS                                        ##
+#############################################################
+
+#############################################################
+## EXECUTION SCRIPT                                        ##
+#############################################################
+
+minimize            1000
+
+set freq 200
+for {set i 0} {$i <= $temperature} {incr i 20} {
+langevinTemp $i
+reinitvels $i
+run $freq
+}
+
+run 993000 ;# 1000 ps;  1 ns

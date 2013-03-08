@@ -1,0 +1,457 @@
+CHARGE      1.00 ( 1 )
+Formula: H105 C80 N20 O19 
+ATOM      1  CAY SER     1      -3.018  12.694  -7.739 -0.140000        c3
+ATOM      2  HY1 SER     1      -3.130  13.700  -8.197  0.069667        hc
+ATOM      3  HY2 SER     1      -3.508  11.950  -8.403  0.069667        hc
+ATOM      4  HY3 SER     1      -1.957  12.411  -7.907  0.069667        hc
+ATOM      5  CY  SER     1      -3.457  12.562  -6.328  0.247000         c
+ATOM      6  OY  SER     1      -4.202  13.355  -5.788 -0.374000         o
+ATOM      7  N   SER     1      -2.996  11.485  -5.631 -0.050000         n
+ATOM      8  HN  SER     1      -2.449  10.755  -6.034  0.107000        hn
+ATOM      9  CA  SER     1      -3.275  11.296  -4.219 -0.101000        c3
+ATOM     10  HA  SER     1      -3.001  12.261  -3.819  0.123000        h1
+ATOM     11  CB  SER     1      -4.777  11.028  -3.939  0.068000        c3
+ATOM     12  HB1 SER     1      -5.412  11.656  -4.600  0.047000        h1
+ATOM     13  HB2 SER     1      -4.938   9.937  -4.077  0.047000        h1
+ATOM     14  OG  SER     1      -5.104  11.405  -2.554 -0.325000        oh
+ATOM     15  HG1 SER     1      -6.039  11.230  -2.424  0.209000        ho
+ATOM     16  C   SER     1      -2.381  10.221  -3.605  0.259000         c
+ATOM     17  O   SER     1      -1.355   9.871  -4.182 -0.450000         o
+ATOM     18  N   TRP     2      -2.730   9.847  -2.320 -0.039000         n
+ATOM     19  HN  TRP     2      -3.404  10.334  -1.769  0.137000        hn
+ATOM     20  CA  TRP     2      -2.087   8.777  -1.612 -0.067000        c3
+ATOM     21  HA  TRP     2      -1.017   8.792  -1.753  0.127000        h1
+ATOM     22  CB  TRP     2      -2.466   8.763  -0.085 -0.013000        c3
+ATOM     23  HB1 TRP     2      -3.550   8.532  -0.009  0.066000        hc
+ATOM     24  HB2 TRP     2      -1.955   7.870   0.335  0.066000        hc
+ATOM     25  CG  TRP     2      -2.119  10.000   0.700 -0.147000        cc
+ATOM     26  CD1 TRP     2      -2.725  11.316   0.733 -0.218000        cd
+ATOM     27  HD1 TRP     2      -3.661  11.689   0.345  0.148000        h4
+ATOM     28  NE1 TRP     2      -1.921  12.167   1.462  0.284000        na
+ATOM     29  HE1 TRP     2      -1.980  13.131   1.604  0.073000        hn
+ATOM     30  CE2 TRP     2      -0.683  11.606   1.566 -0.170000        ca
+ATOM     31  CD2 TRP     2      -0.776  10.213   1.131 -0.063000        ca
+ATOM     32  CE3 TRP     2       0.310   9.397   1.134 -0.061000        ca
+ATOM     33  HE3 TRP     2       0.225   8.347   0.897  0.102000        ha
+ATOM     34  CZ3 TRP     2       1.478   9.927   1.672 -0.135000        ca
+ATOM     35  HZ3 TRP     2       2.351   9.299   1.773  0.096000        ha
+ATOM     36  CZ2 TRP     2       0.500  12.098   2.015 -0.090000        ca
+ATOM     37  HZ2 TRP     2       0.532  13.101   2.413  0.110000        ha
+ATOM     38  CH2 TRP     2       1.562  11.255   2.157 -0.089000        ca
+ATOM     39  HH2 TRP     2       2.435  11.731   2.577  0.102000        ha
+ATOM     40  C   TRP     2      -2.705   7.500  -2.239  0.214000         c
+ATOM     41  O   TRP     2      -3.951   7.271  -2.147 -0.382000         o
+ATOM     42  N   THR     3      -1.884   6.585  -2.790 -0.017000         n
+ATOM     43  HN  THR     3      -0.905   6.768  -2.745  0.107000        hn
+ATOM     44  CA  THR     3      -2.232   5.215  -3.210 -0.131000        c3
+ATOM     45  HA  THR     3      -3.298   5.099  -3.083  0.129000        h1
+ATOM     46  CB  THR     3      -1.886   4.814  -4.667  0.095000        c3
+ATOM     47  HB  THR     3      -2.416   3.874  -4.932  0.048000        h1
+ATOM     48  OG1 THR     3      -0.515   4.723  -4.933 -0.321000        oh
+ATOM     49  HG1 THR     3      -0.335   3.880  -5.355  0.197000        ho
+ATOM     50  CG2 THR     3      -2.460   5.894  -5.541 -0.138000        c3
+ATOM     51  HG21THR     3      -2.307   5.693  -6.623  0.061000        hc
+ATOM     52  HG22THR     3      -3.549   6.028  -5.367  0.061000        hc
+ATOM     53  HG23THR     3      -1.844   6.806  -5.391  0.061000        hc
+ATOM     54  C   THR     3      -1.515   4.228  -2.336  0.226000         c
+ATOM     55  O   THR     3      -0.614   4.599  -1.607 -0.409000         o
+ATOM     56  N   TRP     4      -2.023   2.991  -2.424 -0.012000         n
+ATOM     57  HN  TRP     4      -2.794   2.854  -3.041  0.090000        hn
+ATOM     58  CA  TRP     4      -1.271   1.868  -1.819 -0.079000        c3
+ATOM     59  HA  TRP     4      -0.837   2.130  -0.865  0.118000        h1
+ATOM     60  CB  TRP     4      -2.115   0.519  -1.523 -0.010000        c3
+ATOM     61  HB1 TRP     4      -3.092   0.859  -1.118  0.071500        hc
+ATOM     62  HB2 TRP     4      -2.259  -0.123  -2.419  0.071500        hc
+ATOM     63  CG  TRP     4      -1.562  -0.365  -0.360 -0.183000        cc
+ATOM     64  CD1 TRP     4      -1.087  -1.601  -0.580 -0.202000        cd
+ATOM     65  HD1 TRP     4      -0.742  -1.770  -1.589  0.143000        h4
+ATOM     66  NE1 TRP     4      -0.893  -2.272   0.634  0.300000        na
+ATOM     67  HE1 TRP     4      -0.269  -3.022   0.658  0.083000        hn
+ATOM     68  CE2 TRP     4      -1.215  -1.388   1.658 -0.172000        ca
+ATOM     69  CD2 TRP     4      -1.638  -0.139   1.054 -0.074000        ca
+ATOM     70  CE3 TRP     4      -2.011   0.929   1.879 -0.061000        ca
+ATOM     71  HE3 TRP     4      -2.356   1.877   1.495  0.109000        ha
+ATOM     72  CZ3 TRP     4      -2.123   0.648   3.269 -0.132000        ca
+ATOM     73  HZ3 TRP     4      -2.717   1.343   3.844  0.110000        ha
+ATOM     74  CZ2 TRP     4      -1.246  -1.638   3.009 -0.099000        ca
+ATOM     75  HZ2 TRP     4      -0.973  -2.585   3.453  0.105000        ha
+ATOM     76  CH2 TRP     4      -1.775  -0.588   3.819 -0.089000        ca
+ATOM     77  HH2 TRP     4      -1.906  -0.862   4.855  0.101000        ha
+ATOM     78  C   TRP     4      -0.163   1.440  -2.743  0.231000         c
+ATOM     79  O   TRP     4      -0.214   1.599  -3.936 -0.387000         o
+ATOM     80  N   GLU     5       0.947   0.950  -2.139 -0.033000         n
+ATOM     81  HN  GLU     5       1.146   0.963  -1.163  0.103000        hn
+ATOM     82  CA  GLU     5       2.040   0.520  -3.037 -0.080000        c3
+ATOM     83  HA  GLU     5       1.762   0.132  -4.005  0.114000        h1
+ATOM     84  CB  GLU     5       2.954   1.793  -3.200 -0.110000        c3
+ATOM     85  HB1 GLU     5       2.432   2.562  -3.808  0.062500        hc
+ATOM     86  HB2 GLU     5       3.122   2.213  -2.185  0.062500        hc
+ATOM     87  CG  GLU     5       4.308   1.596  -3.927 -0.150000        c3
+ATOM     88  HG1 GLU     5       4.856   0.682  -3.612  0.074000        hc
+ATOM     89  HG2 GLU     5       4.147   1.612  -5.027  0.074000        hc
+ATOM     90  CD  GLU     5       5.101   2.840  -3.633  0.470000         c
+ATOM     91  OE1 GLU     5       5.170   3.747  -4.542 -0.627500         o
+ATOM     92  OE2 GLU     5       5.735   2.929  -2.543 -0.627500         o
+ATOM     93  C   GLU     5       2.784  -0.532  -2.274  0.263000         c
+ATOM     94  O   GLU     5       3.550  -0.207  -1.341 -0.432000         o
+ATOM     95  N   GLY     6       2.525  -1.787  -2.624  0.012000         n
+ATOM     96  HN  GLY     6       1.899  -1.957  -3.381  0.097000        hn
+ATOM     97  CA  GLY     6       3.089  -2.979  -1.953 -0.100000        c3
+ATOM     98  HA1 GLY     6       4.147  -2.891  -1.756  0.095500        h1
+ATOM     99  HA2 GLY     6       2.943  -3.793  -2.648  0.095500        h1
+ATOM    100  C   GLY     6       2.398  -3.393  -0.649  0.239000         c
+ATOM    101  O   GLY     6       1.278  -3.794  -0.608 -0.394000         o
+ATOM    102  N   ASN     7       3.073  -3.101   0.420 -0.102000         n
+ATOM    103  HN  ASN     7       4.011  -2.802   0.261  0.158000        hn
+ATOM    104  CA  ASN     7       2.647  -3.263   1.794 -0.067000        c3
+ATOM    105  HA  ASN     7       1.679  -3.743   1.771  0.115000        h1
+ATOM    106  CB  ASN     7       3.640  -4.209   2.495 -0.131000        c3
+ATOM    107  HB1 ASN     7       3.193  -4.358   3.501  0.092500        hc
+ATOM    108  HB2 ASN     7       3.582  -5.182   1.962  0.092500        hc
+ATOM    109  CG  ASN     7       4.978  -3.707   2.609  0.224000         c
+ATOM    110  OD1 ASN     7       5.581  -3.048   1.765 -0.420000         o
+ATOM    111  ND2 ASN     7       5.728  -4.188   3.661  0.047000         n
+ATOM    112  HD21ASN     7       6.632  -3.798   3.836  0.065000        hn
+ATOM    113  HD22ASN     7       5.302  -4.774   4.350  0.065000        hn
+ATOM    114  C   ASN     7       2.365  -2.030   2.560  0.241000         c
+ATOM    115  O   ASN     7       2.253  -2.066   3.739 -0.376000         o
+ATOM    116  N   LYS     8       2.384  -0.817   1.947 -0.025000         n
+ATOM    117  HN  LYS     8       2.292  -0.689   0.962  0.100000        hn
+ATOM    118  CA  LYS     8       2.414   0.410   2.693 -0.065000        c3
+ATOM    119  HA  LYS     8       1.627   0.415   3.433  0.101000        h1
+ATOM    120  CB  LYS     8       3.805   0.607   3.444 -0.125000        c3
+ATOM    121  HB1 LYS     8       3.776   1.662   3.790  0.078000        hc
+ATOM    122  HB2 LYS     8       3.701  -0.053   4.332  0.078000        hc
+ATOM    123  CG  LYS     8       5.006   0.203   2.572 -0.121000        c3
+ATOM    124  HG1 LYS     8       5.615  -0.506   3.173  0.070000        hc
+ATOM    125  HG2 LYS     8       4.716  -0.430   1.706  0.070000        hc
+ATOM    126  CD  LYS     8       5.859   1.430   2.204 -0.128000        c3
+ATOM    127  HD1 LYS     8       5.334   2.340   2.566  0.085000        hc
+ATOM    128  HD2 LYS     8       6.814   1.365   2.767  0.085000        hc
+ATOM    129  CE  LYS     8       6.178   1.610   0.668 -0.203000        c3
+ATOM    130  HE1 LYS     8       6.908   2.448   0.671  0.096000        hx
+ATOM    131  HE2 LYS     8       6.582   0.661   0.255  0.096000        hx
+ATOM    132  NZ  LYS     8       5.073   1.906  -0.182  0.526000        n4
+ATOM    133  HZ1 LYS     8       4.489   2.667   0.218  0.098333        hn
+ATOM    134  HZ2 LYS     8       5.355   2.167  -1.149  0.098333        hn
+ATOM    135  HZ3 LYS     8       4.455   1.097  -0.394  0.098333        hn
+ATOM    136  C   LYS     8       2.096   1.567   1.784  0.249000         c
+ATOM    137  O   LYS     8       2.266   1.417   0.584 -0.429000         o
+ATOM    138  N   TRP     9       1.513   2.738   2.268 -0.002000         n
+ATOM    139  HN  TRP     9       1.225   2.801   3.220  0.097000        hn
+ATOM    140  CA  TRP     9       1.188   3.960   1.575 -0.075000        c3
+ATOM    141  HA  TRP     9       0.448   3.641   0.856  0.107000        h1
+ATOM    142  CB  TRP     9       0.794   4.992   2.561 -0.041000        c3
+ATOM    143  HB1 TRP     9       1.642   5.248   3.232  0.081500        hc
+ATOM    144  HB2 TRP     9       0.545   5.932   2.024  0.081500        hc
+ATOM    145  CG  TRP     9      -0.406   4.782   3.445 -0.183000        cc
+ATOM    146  CD1 TRP     9      -0.543   4.404   4.740 -0.217000        cd
+ATOM    147  HD1 TRP     9       0.291   4.089   5.349  0.143000        h4
+ATOM    148  NE1 TRP     9      -1.876   4.105   4.965  0.291000        na
+ATOM    149  HE1 TRP     9      -2.241   3.640   5.742  0.076000        hn
+ATOM    150  CE2 TRP     9      -2.604   4.309   3.876 -0.168000        ca
+ATOM    151  CD2 TRP     9      -1.721   4.787   2.914 -0.075000        ca
+ATOM    152  CE3 TRP     9      -2.180   5.115   1.689 -0.063000        ca
+ATOM    153  HE3 TRP     9      -1.507   5.501   0.938  0.104000        ha
+ATOM    154  CZ3 TRP     9      -3.546   5.146   1.487 -0.116000        ca
+ATOM    155  HZ3 TRP     9      -3.914   5.426   0.512  0.108000        ha
+ATOM    156  CZ2 TRP     9      -3.946   4.116   3.615 -0.092000        ca
+ATOM    157  HZ2 TRP     9      -4.656   3.672   4.299  0.114000        ha
+ATOM    158  CH2 TRP     9      -4.425   4.633   2.435 -0.081000        ca
+ATOM    159  HH2 TRP     9      -5.485   4.675   2.233  0.109000        ha
+ATOM    160  C   TRP     9       2.326   4.425   0.688  0.267000         c
+ATOM    161  O   TRP     9       3.509   4.082   0.816 -0.447000         o
+ATOM    162  N   THR    10       1.969   5.350  -0.231 -0.005000         n
+ATOM    163  HN  THR    10       1.021   5.346  -0.539  0.108000        hn
+ATOM    164  CA  THR    10       3.030   6.222  -0.925 -0.095000        c3
+ATOM    165  HA  THR    10       3.815   6.544  -0.257  0.118000        h1
+ATOM    166  CB  THR    10       3.579   5.501  -2.085  0.087000        c3
+ATOM    167  HB  THR    10       3.775   4.458  -1.755  0.052000        h1
+ATOM    168  OG1 THR    10       4.743   6.083  -2.568 -0.404000        oh
+ATOM    169  HG1 THR    10       5.228   5.262  -2.673  0.265000        ho
+ATOM    170  CG2 THR    10       2.548   5.312  -3.197 -0.187000        c3
+ATOM    171  HG21THR    10       3.055   4.948  -4.116  0.064333        hc
+ATOM    172  HG22THR    10       1.667   4.683  -2.950  0.064333        hc
+ATOM    173  HG23THR    10       2.033   6.243  -3.519  0.064333        hc
+ATOM    174  C   THR    10       2.342   7.496  -1.369  0.245000         c
+ATOM    175  O   THR    10       1.090   7.522  -1.443 -0.397000         o
+ATOM    176  N   TRP    11       3.028   8.586  -1.722 -0.004000         n
+ATOM    177  HN  TRP    11       4.005   8.694  -1.558  0.099000        hn
+ATOM    178  CA  TRP    11       2.454   9.721  -2.424 -0.089000        c3
+ATOM    179  HA  TRP    11       1.417   9.790  -2.131  0.132000        h1
+ATOM    180  CB  TRP    11       2.959  11.087  -1.934 -0.016000        c3
+ATOM    181  HB1 TRP    11       2.605  11.218  -0.889  0.071000        hc
+ATOM    182  HB2 TRP    11       4.063  10.963  -1.915  0.071000        hc
+ATOM    183  CG  TRP    11       2.661  12.291  -2.801 -0.153000        cc
+ATOM    184  CD1 TRP    11       3.416  13.106  -3.660 -0.216000        cd
+ATOM    185  HD1 TRP    11       4.361  12.964  -4.163  0.143000        h4
+ATOM    186  NE1 TRP    11       2.629  14.075  -4.144  0.247000        na
+ATOM    187  HE1 TRP    11       2.902  14.640  -4.891  0.075000        hn
+ATOM    188  CE2 TRP    11       1.449  14.075  -3.540 -0.163000        ca
+ATOM    189  CD2 TRP    11       1.396  12.933  -2.664 -0.081000        ca
+ATOM    190  CE3 TRP    11       0.246  12.589  -1.944 -0.066000        ca
+ATOM    191  HE3 TRP    11       0.242  11.754  -1.259  0.118000        ha
+ATOM    192  CZ3 TRP    11      -0.805  13.496  -2.003 -0.133000        ca
+ATOM    193  HZ3 TRP    11      -1.700  13.300  -1.431  0.103000        ha
+ATOM    194  CZ2 TRP    11       0.290  14.858  -3.669 -0.094000        ca
+ATOM    195  HZ2 TRP    11       0.306  15.685  -4.364  0.115000        ha
+ATOM    196  CH2 TRP    11      -0.844  14.592  -2.872 -0.076000        ca
+ATOM    197  HH2 TRP    11      -1.717  15.216  -2.992  0.116000        ha
+ATOM    198  C   TRP    11       2.655   9.553  -3.925  0.246000         c
+ATOM    199  O   TRP    11       3.770   9.272  -4.414 -0.472000         o
+ATOM    200  C   LYS    12       0.373  10.860  -6.499  0.217000         c
+ATOM    201  O   LYS    12      -0.465  10.614  -7.331 -0.375000         o
+ATOM    202  NT  LYS    12       0.341  12.008  -5.795  0.006000         n
+ATOM    203  HT1 LYS    12      -0.461  12.572  -5.994  0.061500        hn
+ATOM    204  HT2 LYS    12       1.084  12.282  -5.184  0.061500        hn
+ATOM    205  N   LYS    12       1.480   9.573  -4.618 -0.039000         n
+ATOM    206  HN  LYS    12       0.596   9.664  -4.168  0.157000        hn
+ATOM    207  CA  LYS    12       1.446   9.794  -6.079 -0.080000        c3
+ATOM    208  HA  LYS    12       2.360  10.295  -6.361  0.106000        h1
+ATOM    209  CB  LYS    12       1.314   8.466  -6.895 -0.125000        c3
+ATOM    210  HB1 LYS    12       0.255   8.137  -6.951  0.088000        hc
+ATOM    211  HB2 LYS    12       1.480   8.724  -7.963  0.088000        hc
+ATOM    212  CG  LYS    12       2.304   7.325  -6.569 -0.130000        c3
+ATOM    213  HG1 LYS    12       2.458   7.131  -5.486  0.069500        hc
+ATOM    214  HG2 LYS    12       1.905   6.336  -6.881  0.069500        hc
+ATOM    215  CD  LYS    12       3.755   7.538  -7.195 -0.128000        c3
+ATOM    216  HD1 LYS    12       3.723   7.662  -8.298  0.082500        hc
+ATOM    217  HD2 LYS    12       4.247   8.433  -6.757  0.082500        hc
+ATOM    218  CE  LYS    12       4.583   6.275  -6.861 -0.234000        c3
+ATOM    219  HE1 LYS    12       3.870   5.437  -7.017  0.110500        hx
+ATOM    220  HE2 LYS    12       5.364   6.150  -7.641  0.110500        hx
+ATOM    221  NZ  LYS    12       5.066   6.371  -5.454  0.651000        n4
+ATOM    222  HZ1 LYS    12       5.096   5.370  -5.177  0.069000        hn
+ATOM    223  HZ2 LYS    12       6.063   6.664  -5.401  0.069000        hn
+ATOM    224  HZ3 LYS    12       4.499   6.950  -4.802  0.069000        hn
+BOND    1    1    2    1    CAY  HY1
+BOND    2    1    3    1    CAY  HY2
+BOND    3    1    4    1    CAY  HY3
+BOND    4    1    5    1    CAY   CY
+BOND    5    5    6    2     CY   OY
+BOND    6    5    7    1     CY    N
+BOND    7    7    8    1      N   HN
+BOND    8    7    9    1      N   CA
+BOND    9    9   10    1     CA   HA
+BOND   10    9   11    1     CA   CB
+BOND   11    9   16    1     CA    C
+BOND   12   11   12    1     CB  HB1
+BOND   13   11   13    1     CB  HB2
+BOND   14   11   14    1     CB   OG
+BOND   15   14   15    1     OG  HG1
+BOND   16   16   17    2      C    O
+BOND   17   16   18    1      C    N
+BOND   18   18   19    1      N   HN
+BOND   19   18   20    1      N   CA
+BOND   20   20   21    1     CA   HA
+BOND   21   20   22    1     CA   CB
+BOND   22   20   40    1     CA    C
+BOND   23   22   23    1     CB  HB1
+BOND   24   22   24    1     CB  HB2
+BOND   25   22   25    1     CB   CG
+BOND   26   25   26    2     CG  CD1
+BOND   27   25   31    1     CG  CD2
+BOND   28   26   27    1    CD1  HD1
+BOND   29   26   28    1    CD1  NE1
+BOND   30   28   29    1    NE1  HE1
+BOND   31   28   30    1    NE1  CE2
+BOND   32   30   31    7    CE2  CD2
+BOND   33   30   36    8    CE2  CZ2
+BOND   34   31   32    8    CD2  CE3
+BOND   35   32   33    1    CE3  HE3
+BOND   36   32   34    7    CE3  CZ3
+BOND   37   34   35    1    CZ3  HZ3
+BOND   38   34   38    8    CZ3  CH2
+BOND   39   36   37    1    CZ2  HZ2
+BOND   40   36   38    7    CZ2  CH2
+BOND   41   38   39    1    CH2  HH2
+BOND   42   40   41    2      C    O
+BOND   43   40   42    1      C    N
+BOND   44   42   43    1      N   HN
+BOND   45   42   44    1      N   CA
+BOND   46   44   45    1     CA   HA
+BOND   47   44   46    1     CA   CB
+BOND   48   44   54    1     CA    C
+BOND   49   46   47    1     CB   HB
+BOND   50   46   48    1     CB  OG1
+BOND   51   46   50    1     CB  CG2
+BOND   52   48   49    1    OG1  HG1
+BOND   53   50   51    1    CG2 HG21
+BOND   54   50   52    1    CG2 HG22
+BOND   55   50   53    1    CG2 HG23
+BOND   56   54   55    2      C    O
+BOND   57   54   56    1      C    N
+BOND   58   56   57    1      N   HN
+BOND   59   56   58    1      N   CA
+BOND   60   58   59    1     CA   HA
+BOND   61   58   60    1     CA   CB
+BOND   62   58   78    1     CA    C
+BOND   63   60   61    1     CB  HB1
+BOND   64   60   62    1     CB  HB2
+BOND   65   60   63    1     CB   CG
+BOND   66   63   64    2     CG  CD1
+BOND   67   63   69    1     CG  CD2
+BOND   68   64   65    1    CD1  HD1
+BOND   69   64   66    1    CD1  NE1
+BOND   70   66   67    1    NE1  HE1
+BOND   71   66   68    1    NE1  CE2
+BOND   72   68   69    7    CE2  CD2
+BOND   73   68   74    8    CE2  CZ2
+BOND   74   69   70    8    CD2  CE3
+BOND   75   70   71    1    CE3  HE3
+BOND   76   70   72    7    CE3  CZ3
+BOND   77   72   73    1    CZ3  HZ3
+BOND   78   72   76    8    CZ3  CH2
+BOND   79   74   75    1    CZ2  HZ2
+BOND   80   74   76    7    CZ2  CH2
+BOND   81   76   77    1    CH2  HH2
+BOND   82   78   79    2      C    O
+BOND   83   78   80    1      C    N
+BOND   84   80   81    1      N   HN
+BOND   85   80   82    1      N   CA
+BOND   86   82   83    1     CA   HA
+BOND   87   82   84    1     CA   CB
+BOND   88   82   93    1     CA    C
+BOND   89   84   85    1     CB  HB1
+BOND   90   84   86    1     CB  HB2
+BOND   91   84   87    1     CB   CG
+BOND   92   87   88    1     CG  HG1
+BOND   93   87   89    1     CG  HG2
+BOND   94   87   90    1     CG   CD
+BOND   95   90   91    9     CD  OE1
+BOND   96   90   92    9     CD  OE2
+BOND   97   93   94    2      C    O
+BOND   98   93   95    1      C    N
+BOND   99   95   96    1      N   HN
+BOND  100   95   97    1      N   CA
+BOND  101   97   98    1     CA  HA1
+BOND  102   97   99    1     CA  HA2
+BOND  103   97  100    1     CA    C
+BOND  104  100  101    2      C    O
+BOND  105  100  102    1      C    N
+BOND  106  102  103    1      N   HN
+BOND  107  102  104    1      N   CA
+BOND  108  104  105    1     CA   HA
+BOND  109  104  106    1     CA   CB
+BOND  110  104  114    1     CA    C
+BOND  111  106  107    1     CB  HB1
+BOND  112  106  108    1     CB  HB2
+BOND  113  106  109    1     CB   CG
+BOND  114  109  110    2     CG  OD1
+BOND  115  109  111    1     CG  ND2
+BOND  116  111  112    1    ND2 HD21
+BOND  117  111  113    1    ND2 HD22
+BOND  118  114  115    2      C    O
+BOND  119  114  116    1      C    N
+BOND  120  116  117    1      N   HN
+BOND  121  116  118    1      N   CA
+BOND  122  118  119    1     CA   HA
+BOND  123  118  120    1     CA   CB
+BOND  124  118  136    1     CA    C
+BOND  125  120  121    1     CB  HB1
+BOND  126  120  122    1     CB  HB2
+BOND  127  120  123    1     CB   CG
+BOND  128  123  124    1     CG  HG1
+BOND  129  123  125    1     CG  HG2
+BOND  130  123  126    1     CG   CD
+BOND  131  126  127    1     CD  HD1
+BOND  132  126  128    1     CD  HD2
+BOND  133  126  129    1     CD   CE
+BOND  134  129  130    1     CE  HE1
+BOND  135  129  131    1     CE  HE2
+BOND  136  129  132    1     CE   NZ
+BOND  137  132  133    1     NZ  HZ1
+BOND  138  132  134    1     NZ  HZ2
+BOND  139  132  135    1     NZ  HZ3
+BOND  140  136  137    2      C    O
+BOND  141  136  138    1      C    N
+BOND  142  138  139    1      N   HN
+BOND  143  138  140    1      N   CA
+BOND  144  140  141    1     CA   HA
+BOND  145  140  142    1     CA   CB
+BOND  146  140  160    1     CA    C
+BOND  147  142  143    1     CB  HB1
+BOND  148  142  144    1     CB  HB2
+BOND  149  142  145    1     CB   CG
+BOND  150  145  146    2     CG  CD1
+BOND  151  145  151    1     CG  CD2
+BOND  152  146  147    1    CD1  HD1
+BOND  153  146  148    1    CD1  NE1
+BOND  154  148  149    1    NE1  HE1
+BOND  155  148  150    1    NE1  CE2
+BOND  156  150  151    7    CE2  CD2
+BOND  157  150  156    8    CE2  CZ2
+BOND  158  151  152    8    CD2  CE3
+BOND  159  152  153    1    CE3  HE3
+BOND  160  152  154    7    CE3  CZ3
+BOND  161  154  155    1    CZ3  HZ3
+BOND  162  154  158    8    CZ3  CH2
+BOND  163  156  157    1    CZ2  HZ2
+BOND  164  156  158    7    CZ2  CH2
+BOND  165  158  159    1    CH2  HH2
+BOND  166  160  161    2      C    O
+BOND  167  160  162    1      C    N
+BOND  168  162  163    1      N   HN
+BOND  169  162  164    1      N   CA
+BOND  170  164  165    1     CA   HA
+BOND  171  164  166    1     CA   CB
+BOND  172  164  174    1     CA    C
+BOND  173  166  167    1     CB   HB
+BOND  174  166  168    1     CB  OG1
+BOND  175  166  170    1     CB  CG2
+BOND  176  168  169    1    OG1  HG1
+BOND  177  170  171    1    CG2 HG21
+BOND  178  170  172    1    CG2 HG22
+BOND  179  170  173    1    CG2 HG23
+BOND  180  174  175    2      C    O
+BOND  181  174  176    1      C    N
+BOND  182  176  177    1      N   HN
+BOND  183  176  178    1      N   CA
+BOND  184  178  179    1     CA   HA
+BOND  185  178  180    1     CA   CB
+BOND  186  178  198    1     CA    C
+BOND  187  180  181    1     CB  HB1
+BOND  188  180  182    1     CB  HB2
+BOND  189  180  183    1     CB   CG
+BOND  190  183  184    2     CG  CD1
+BOND  191  183  189    1     CG  CD2
+BOND  192  184  185    1    CD1  HD1
+BOND  193  184  186    1    CD1  NE1
+BOND  194  186  187    1    NE1  HE1
+BOND  195  186  188    1    NE1  CE2
+BOND  196  188  189    7    CE2  CD2
+BOND  197  188  194    8    CE2  CZ2
+BOND  198  189  190    8    CD2  CE3
+BOND  199  190  191    1    CE3  HE3
+BOND  200  190  192    7    CE3  CZ3
+BOND  201  192  193    1    CZ3  HZ3
+BOND  202  192  196    8    CZ3  CH2
+BOND  203  194  195    1    CZ2  HZ2
+BOND  204  194  196    7    CZ2  CH2
+BOND  205  196  197    1    CH2  HH2
+BOND  206  198  199    2      C    O
+BOND  207  198  205    1      C    N
+BOND  208  200  201    2      C    O
+BOND  209  200  202    1      C   NT
+BOND  210  200  207    1      C   CA
+BOND  211  202  203    1     NT  HT1
+BOND  212  202  204    1     NT  HT2
+BOND  213  205  206    1      N   HN
+BOND  214  205  207    1      N   CA
+BOND  215  207  208    1     CA   HA
+BOND  216  207  209    1     CA   CB
+BOND  217  209  210    1     CB  HB1
+BOND  218  209  211    1     CB  HB2
+BOND  219  209  212    1     CB   CG
+BOND  220  212  213    1     CG  HG1
+BOND  221  212  214    1     CG  HG2
+BOND  222  212  215    1     CG   CD
+BOND  223  215  216    1     CD  HD1
+BOND  224  215  217    1     CD  HD2
+BOND  225  215  218    1     CD   CE
+BOND  226  218  219    1     CE  HE1
+BOND  227  218  220    1     CE  HE2
+BOND  228  218  221    1     CE   NZ
+BOND  229  221  222    1     NZ  HZ1
+BOND  230  221  223    1     NZ  HZ2
+BOND  231  221  224    1     NZ  HZ3

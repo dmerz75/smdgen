@@ -1,0 +1,3 @@
+
+copied da60.psf 
+and the da60endcoords10ps.pdb

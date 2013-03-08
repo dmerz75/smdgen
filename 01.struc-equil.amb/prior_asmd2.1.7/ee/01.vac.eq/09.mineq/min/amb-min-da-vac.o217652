@@ -1,0 +1,2 @@
+/var/spool/torque/mom_priv/jobs/217652.greengate.chemistry.gatech.edu.SC: line 16: /opt/intel/Compiler/11.1/075/bin/iccvars.sh: No such file or directory
+sh: /share/apps/amber11/bin/sander: No such file or directory

@@ -1,0 +1,93 @@
+#############################################################
+## JOB DESCRIPTION                                         ##
+#############################################################
+# SMD simulation (stretching) of deca-alanine in explicit
+# Constant temperature
+#############################################################
+## ADJUSTABLE PARAMETERS                                   ##
+#############################################################
+structure          ../../00.struc-equil.e/00.psf
+coordinates        ../../00.struc-equil.e/00.pdb
+outputName         da_smd
+set temperature    300
+
+firsttimestep      0
+#############################################################
+## SIMULATION PARAMETERS                                   ##
+#############################################################
+# Input
+paraTypeCharmm	    on
+parameters          ../../toppar/par_all27_prot_lipid.prm
+temperature         $temperature
+ 
+# Force-Field Parameters
+#margin              2.0
+exclude             scaled1-4
+1-4scaling          1.0
+cutoff              14.0
+switching           on
+switchdist          12.0
+pairlistdist        16.0
+
+# Integrator Parameters
+timestep            xxtsxx      ;# 2fs/step
+rigidBonds          all       ;# needed for 2fs steps
+nonbondedFreq	    1
+fullElectFrequency  2
+stepspercycle       10
+
+# Constant Temperature Control
+langevin            on       ;# do langevin dynamics
+langevinDamping     xxlDxx     ;# damping coefficient (gamma) of 1/ps
+langevinTemp        $temperature
+langevinHydrogen    no       ;# don't couple langevin bath to hydrogens
+
+# Periodic Boundary conditions
+# NOTE: Do not set the periodic cell basis if you have also 
+# specified an .xsc restart file!
+if {1} { 
+cellBasisVector1   32.0    0.0   0.0
+cellBasisVector2    0.0   32.0   0.0
+cellBasisVector3    0.0    0.0  60.0
+cellOrigin          1.35  -0.25 22.5
+}
+wrapWater           on
+wrapAll             on
+
+# PME (for full-system periodic electrostatics)
+if {1} {
+PME                  yes
+PMEGridSpacing       1.0
+#manual grid definition
+PMEGridSizeX         32
+PMEGridSizeY         32
+PMEGridSizeZ         60
+}
+
+# Constant Pressure Control (variable volume)
+useGroupPressure      yes ;# needed for rigidBonds
+useFlexibleCell       no
+useConstantArea       no
+
+langevinPiston        on
+langevinPistonTarget  1.01325 ;#  in bar -> 1 atm
+langevinPistonPeriod  100.0
+langevinPistonDecay   50.0
+langevinPistonTemp    $temperature
+
+# Output
+restartfreq         5000        ;# 500steps = every 1ps
+dcdfreq             xxdcdxx
+xstFreq             5000
+outputEnergies      1000
+outputPressure      1000
+
+#############################################################
+## EXTRA PARAMETERS                                        ##
+#############################################################
+
+# Tcl interface
+tclForces           on
+tclForcesScript     ../xxnumxx-smd.tcl
+
+run                 xxstepsxx 

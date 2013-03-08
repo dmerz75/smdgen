@@ -1,0 +1,9 @@
+# minimization with Cartesian restraints
+&cntrl
+imin = 1,
+maxcyc = 1000,
+ncyc = 250, 
+ntb = 0,
+igb = 0,
+cut = 12
+/

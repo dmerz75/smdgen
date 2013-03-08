@@ -1,0 +1,67 @@
+#############################################################
+## JOB DESCRIPTION                                         ##
+#############################################################
+# SMD simulation (stretching) of deca-alanine in vacuum
+# Constant temperature
+#############################################################
+## ADJUSTABLE PARAMETERS                                   ##
+#############################################################
+structure          ../../00.struc-equil.i/00.psf
+coordinates        ../../00.struc-equil.i/00.pdb
+outputName         da_smd
+
+set temperature    300
+#############################################################
+## SIMULATION PARAMETERS                                   ##
+#############################################################
+# Input
+paraTypeCharmm	    on
+parameters          ../../toppar/par_all27_prot_lipid.prm
+temperature         $temperature
+
+# GBIS Implicit Solvent
+GBIS                on
+SASA                on
+#solventDielectric   78.5
+#intrinsicRadiusOffset 0.09
+#ionConcentration    0.0
+#GBISDelta           1.0 ;# Default: 1, .8, 4.85
+#GBISBeta            0.8
+#GBISGamma           4.85
+#alphaCutoff         12.0
+ 
+# Force-Field Parameters
+exclude             scaled1-4
+1-4scaling          1.0
+cutoff              18.0
+switching           on
+switchdist          16.0
+pairlistdist        20.0
+
+# Integrator Parameters
+timestep            xxtsxx      ;# 2fs/step
+rigidBonds          all       ;# needed for 2fs steps
+nonbondedFreq	    1
+fullElectFrequency  2
+stepspercycle       10
+
+# Constant Temperature Control
+langevin            on    ;# do langevin dynamics
+langevinDamping     xxlDxx     ;# damping coefficient (gamma) of 1/ps
+langevinTemp        $temperature
+langevinHydrogen    off   ;# don't couple langevin bath to hydrogens
+
+# Output
+binaryoutput        no
+dcdfreq             xxdcdxx     ;# 500steps = every 1ps
+outputEnergies      1000
+
+#############################################################
+## EXTRA PARAMETERS                                        ##
+#############################################################
+
+# Tcl interface
+tclForces           on
+tclForcesScript     ../xxnumxx-smd.tcl
+
+run                 xxstepsxx

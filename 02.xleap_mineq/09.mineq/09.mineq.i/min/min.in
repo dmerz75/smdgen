@@ -1,0 +1,14 @@
+# minimization with Cartesian restraints
+&cntrl
+imin = 1,
+maxcyc = 2500,
+ncyc = 500,
+ntb = 0,
+igb = 5,
+cut = 12
+/
+fix peptide
+100.0
+RES 1 6 11
+END
+END

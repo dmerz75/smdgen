@@ -1,0 +1,18 @@
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 9, file /home/dmerz3/Documents/radon/xstruc/amber/02.ee/01.vac/09.mineq/mdyn/fort.9
+Image              PC                Routine            Line        Source             
+libintlc.so.5      00002B0D63DA551D  Unknown               Unknown  Unknown
+libintlc.so.5      00002B0D63DA4025  Unknown               Unknown  Unknown
+libifcore.so.5     00002B0D6387520C  Unknown               Unknown  Unknown
+libifcore.so.5     00002B0D637E5F45  Unknown               Unknown  Unknown
+libifcore.so.5     00002B0D637E56DF  Unknown               Unknown  Unknown
+libifcore.so.5     00002B0D638228FE  Unknown               Unknown  Unknown
+sander             0000000000506BAD  Unknown               Unknown  Unknown
+sander             00000000005007C3  Unknown               Unknown  Unknown
+sander             00000000004FFA33  Unknown               Unknown  Unknown
+sander             00000000004BC5F9  Unknown               Unknown  Unknown
+sander             00000000004999D2  Unknown               Unknown  Unknown
+sander             000000000049984C  Unknown               Unknown  Unknown
+sander             000000000040CA3C  Unknown               Unknown  Unknown
+libc.so.6          00000038FAC1D994  Unknown               Unknown  Unknown
+sander             000000000040C949  Unknown               Unknown  Unknown
